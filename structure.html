@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-solid/css/uicons-regular-solid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Struktur Organisasi PAGASKA - Paskibra Gala Taksaka</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="nav-logo">🐉 PAGASKA</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="history.html">Sejarah</a></li>
+                <li><a href="structure.html">Struktur</a></li>
+                <li><a href="achievements.html">Prestasi</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+        <!-- Teks Berjalan (Marquee) -->
+<div class="marquee-container" id="marquee">
+    <div class="marquee-content">
+        <span class="marquee-item">🏆 Juara Harapan 2 Parade Senja 2024</span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">🇮🇩 3 Anggota Terpilih Pasukan Pengibar Bendera 2023</span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">🎖️ 10 Anggota Bertugas di Penurunan Bendera Kecamatan Dalung 2024</span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">🐉 Paskibra Gala Taksaka - SMKN 5 Kota Madiun</span>
+    </div>
+</div>
+
+    <!-- Struktur Organisasi -->
+    <section id="structure">
+        <h2>Struktur Organisasi</h2>
+        <div class="org-tabs">
+            <button class="org-tab active" onclick="showGen(1)">Generasi 1</button>
+            <button class="org-tab" onclick="showGen(2)">Generasi 2</button>
+            <button class="org-tab" onclick="showGen(3)">Generasi 3</button>
+        </div>
+
+        <!-- Generasi 1 -->
+        <div class="org-content active" id="gen1">
+            <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+                <div class="org-card" style="max-width: 300px;">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Yulva Romhida"
+                      data-ttl="Madiun, 1 Januari 1980"
+                      data-sosmed="@yulvaromhida"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pembina</h4>
+                    <p>Bapak Yulva Romhida</p>
+                </div>
+            </div>
+            
+            <div class="org-grid">
+                <div class="org-card">
+                    <img src="https://img1.pixhost.to/images/11273/677040669_uploaded_image.jpg"
+                      class="member-photo"
+                      data-nama="Airlangga Bramanta Sukma"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Airlangga</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Enrico Bryan"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Enrico Bryan</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Ryan Yazid"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Ketua Umum</h4>
+                    <p>Ryan Yazid</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Sekar Rutikasari"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Wakil Ketua Umum</h4>
+                    <p>Sekar Rutikasari</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Ifa"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Sekretaris</h4>
+                    <p>Ifa</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Feby"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Bendahara</h4>
+                    <p>Feby</p>
+                </div>
+            </div>
+            <div class="more-structure" id="moreGen1">
+                <div class="org-grid">
+                    <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Rehan"
+                          data-ttl="Madiun, 15 Maret 2007"
+                          data-sosmed="@rizkyndra"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor GK3</h4>
+                        <p>Rehan</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Ifa"
+                          data-ttl="Madiun, 15 Maret 2007"
+                          data-sosmed="@rizkyndra"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Yasir Isa</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Feby"
+                          data-ttl="Madiun, 15 Maret 2007"
+                          data-sosmed="@rizkyndra"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>William</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Rehan"
+                          data-ttl="Madiun, 15 Maret 2007"
+                          data-sosmed="@rizkyndra"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Dina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Generasi 2 -->
+        <div class="org-content" id="gen2">
+            <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+                <div class="org-card" style="max-width: 300px;">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Yulva Romhida"
+                      data-ttl="Madiun, 1 Januari 1980"
+                      data-sosmed="@yulvaromhida"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pembina</h4>
+                    <p>Bapak Yulva Romhida</p>
+                </div>
+            </div>
+            
+            <div class="org-grid">
+                <div class="org-card">
+                    <img src="https://img1.pixhost.to/images/11273/677040669_uploaded_image.jpg"
+                      class="member-photo"
+                      data-nama="Airlangga Bramanta Sukma"
+                      data-ttl="Madiun, 15 Maret 2000"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Airlangga</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Enrico Bryan"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Enrico Bryan</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/indra.jpg"
+                      class="member-photo"
+                      data-nama="Rizky Indra Permana"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Ketua Umum</h4>
+                    <p>Rizky Indra Permana</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/bella.jpg"
+                      class="member-photo"
+                      data-nama="Dwi Bella Noviyanti"
+                      data-ttl="Madiun, 20 April 2007"
+                      data-sosmed="@dwibella"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Wakil Ketua Umum</h4>
+                    <p>Dwi Bella Noviyanti</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/anas.jpg"
+                      class="member-photo"
+                      data-nama="Anastasya"
+                      data-ttl="Madiun, 10 Mei 2007"
+                      data-sosmed="@anastasya"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Sekretaris</h4>
+                    <p>Anastasya</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/pipah.jpg"
+                      class="member-photo"
+                      data-nama="Khofifah"
+                      data-ttl="Madiun, 5 Juni 2007"
+                      data-sosmed="@khofifah"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Bendahara</h4>
+                    <p>Khofifah</p>
+                </div>
+                  <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Satria Nur Hidayatullah"
+                          data-ttl="Madiun, 12 Juli 2007"
+                          data-sosmed="@satria_nh"
+                          onclick="openMemberLightbox(this)">
+                        <h4>DTP</h4>
+                        <p>Satria Nur Hidayatullah</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/reyna.jpg"
+                          class="member-photo"
+                          data-nama="Reyna Natasya"
+                          data-ttl="Madiun, 18 Agustus 2007"
+                          data-sosmed="@reyna_natasya"
+                          onclick="openMemberLightbox(this)">
+                        <h4>DTP</h4>
+                        <p>Reyna Natasya</p>
+                    </div>
+                    </div>
+                    <div class="more-structure" id="moreGen2">
+                    <div class="org-grid">
+                    <div class="org-card">
+                        <img src="./assets/images/ramzy.jpg"
+                          class="member-photo"
+                          data-nama="Ramzy Cahya Fauzan"
+                          data-ttl="Madiun, 22 September 2007"
+                          data-sosmed="@ramzy_cf"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor GK3</h4>
+                        <p>Ramzy Cahya Fauzan</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/sapta.jpg"
+                          class="member-photo"
+                          data-nama="Sapta Andika Riyanto"
+                          data-ttl="Madiun, 30 Oktober 2007"
+                          data-sosmed="@sapta_ar"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Sapta Andika Riyanto</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/farhan.jpg"
+                          class="member-photo"
+                          data-nama="Farhan Rizky Devannanda"
+                          data-ttl="Madiun, 5 November 2007"
+                          data-sosmed="@farhan_rd"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Farhan Rizky Devannanda</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/keisya.jpg"
+                          class="member-photo"
+                          data-nama="Keisya"
+                          data-ttl="Madiun, 14 Desember 2007"
+                          data-sosmed="@keisya"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Keisya</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/tata.jpg"
+                          class="member-photo"
+                          data-nama="Tata Regita"
+                          data-ttl="Madiun, 8 Januari 2008"
+                          data-sosmed="@tata_regita"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor Disarda</h4>
+                        <p>Tata Regita</p>
+                    </div>
+                    <div class="org-card">
+                        <img src="./assets/images/amanda.jpg"
+                          class="member-photo"
+                          data-nama="Amanda Regina"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Amanda Regina</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/ailen.jpg"
+                          class="member-photo"
+                          data-nama="Ailen"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Ailen </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/lael.jpg"
+                          class="member-photo"
+                          data-nama="Lael"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Lael</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/dea.jpg"
+                          class="member-photo"
+                          data-nama="Dea"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Dea</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/dava.jpg"
+                          class="member-photo"
+                          data-nama="Rizky Dava Mahendra"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Rizky Dava M.</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/alan.jpg"
+                          class="member-photo"
+                          data-nama="Alan Pratama"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Alan Pratama</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/david.jpg"
+                          class="member-photo"
+                          data-nama="Yohanes David"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Yohanes David </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/adit.jpg"
+                          class="member-photo"
+                          data-nama="Aditya"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Aditya</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/farel.jpg"
+                          class="member-photo"
+                          data-nama="Farel"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Farel</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/secret.webp"
+                          class="member-photo"
+                          data-nama="Giovanni Adhi Pratama"
+                          data-ttl="Madiun, 24 Maret 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor Infokom</h4>
+                        <p>Vex </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/desy.jpg"
+                          class="member-photo"
+                          data-nama="Desy"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Desy</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/yusilla.jpg"
+                          class="member-photo"
+                          data-nama="Yusilla"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Yusilla</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/alisya.jpg"
+                          class="member-photo"
+                          data-nama="Alisya"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Alisya</p>
+                  </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Generasi 3 -->
+        <div class="org-content" id="gen3">
+            <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+                <div class="org-card" style="max-width: 300px;">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Yulva Romhida"
+                      data-ttl="Madiun, 1 Januari 1980"
+                      data-sosmed="@yulvaromhida"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pembina</h4>
+                    <p>Bapak Yulva Romhida</p>
+                </div>
+            </div>
+            
+            <div class="org-grid">
+                <div class="org-card">
+                    <img src="https://img1.pixhost.to/images/11273/677040669_uploaded_image.jpg"
+                      class="member-photo"
+                      data-nama="Airlangga Bramanta Sukma"
+                      data-ttl="Madiun, 15 Maret 2000"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Airlangga</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Enrico Bryan"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Pelatih</h4>
+                    <p>Enrico Bryan</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/afrizal.jpg"
+                      class="member-photo"
+                      data-nama="Muhammad Afrizal"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Ketua Umum</h4>
+                    <p>Muhammad Afrizal</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/zahra.jpg"
+                      class="member-photo"
+                      data-nama="Fatimah Az-Zahra"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Wakil Ketua Umum</h4>
+                    <p>Fatimah Az-Zahra</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/nazuwa.jpg"
+                      class="member-photo"
+                      data-nama="Nazuwa"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Sekretaris 1</h4>
+                    <p>Nazuwa</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/asyifa.jpg"
+                      class="member-photo"
+                      data-nama="Asyifa"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Sekretaris 2</h4>
+                    <p>Asyifa</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/eva.jpg"
+                      class="member-photo"
+                      data-nama="Eva"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Bendahara 1</h4>
+                    <p>Eva</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/logo.png"
+                      class="member-photo"
+                      data-nama="Winni"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Bendahara 2</h4>
+                    <p>Winni</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/yoga.jpg"
+                      class="member-photo"
+                      data-nama="Yoga Prasetyo"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>DTP</h4>
+                    <p>Yoga Prasetyo</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/lelly.jpg"
+                      class="member-photo"
+                      data-nama="Lelly Anggraini"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>DTP</h4>
+                    <p>Lelly Anggraini</p>
+                </div>
+            </div>
+            <div class="more-structure" id="moreGen3">
+              <div class="org-grid">
+                <div class="org-card">
+                    <img src="./assets/images/nopal.JPG"
+                      class="member-photo"
+                      data-nama="Fahri Lintang Saputra"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>Koor GK3</h4>
+                    <p>Fahri Lintang Saputra</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/clarinta.jpg"
+                      class="member-photo"
+                      data-nama="Clarinta"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>GK3</h4>
+                    <p>Clarinta</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/nur.jpg"
+                      class="member-photo"
+                      data-nama="Nur"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>GK3</h4>
+                    <p>Nur</p>
+                </div>
+                <div class="org-card">
+                    <img src="./assets/images/violita.jpg"
+                      class="member-photo"
+                      data-nama="Violita"
+                      data-ttl="Madiun, 15 Maret 2007"
+                      data-sosmed="@rizkyndra"
+                      onclick="openMemberLightbox(this)">
+                    <h4>GK3</h4>
+                    <p>Violita</p>
+                </div>
+                <div class="org-card">
+                        <img src="./assets/images/aymel.jpg"
+                          class="member-photo"
+                          data-nama="Aymel"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>GK3</h4>
+                        <p>Aymel </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/suci.jpg"
+                          class="member-photo"
+                          data-nama="Suci Rofiqoh"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor Disarda</h4>
+                        <p>Suci Rofiqoh</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/nabila.jpg"
+                          class="member-photo"
+                          data-nama="Nabila"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Nabila</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/rolly.jpeg"
+                          class="member-photo"
+                          data-nama="Rolly Sadion"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Rolly Sadion</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/subhanifah.jpg"
+                          class="member-photo"
+                          data-nama="Subhanifah"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Subhanifah </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/mariska.jpg"
+                          class="member-photo"
+                          data-nama="Mariska"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Mariska</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/yasmin.jpg"
+                          class="member-photo"
+                          data-nama="Jahra' Anasula"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Jahra' Anasula</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/ella.png"
+                          class="member-photo"
+                          data-nama="Ella"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Ella</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/silvi.jpg"
+                          class="member-photo"
+                          data-nama="Anggota Disarda 1"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Silvi</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/logo.png"
+                          class="member-photo"
+                          data-nama="Anggota Disarda 1"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Meysa</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/adly.jpg"
+                          class="member-photo"
+                          data-nama="Adly"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Disarda</h4>
+                        <p>Adly</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/Richy Yuga.webp"
+                          class="member-photo"
+                          data-nama="Richy Yuga Tri Finalya"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Koor Infokom</h4>
+                        <p>Richy Yuga T.F </p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/anisa.jpg"
+                          class="member-photo"
+                          data-nama="Annisa Aprilia"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Annisa Aprilia</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/bilqis.jpg"
+                          class="member-photo"
+                          data-nama="Bilqis"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Bilqis</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/khanza.jpg"
+                          class="member-photo"
+                          data-nama="Azzahra Khanza"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Azzahra Khanza</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/nindia.jpg"
+                          class="member-photo"
+                          data-nama="Nindia Artita Lestari"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Nindia Artita L.</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/fahrel.jpg"
+                          class="member-photo"
+                          data-nama="Fahrel"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Fahrel</p>
+                  </div>
+                  <div class="org-card">
+                        <img src="./assets/images/nathan.jpg"
+                          class="member-photo"
+                          data-nama="Janathan Hafiz Nugroho"
+                          data-ttl="Madiun, 20 Februari 2008"
+                          data-sosmed="@disarda1"
+                          onclick="openMemberLightbox(this)">
+                        <h4>Infokom</h4>
+                        <p>Janathan Hafiz N.</p>
+                  </div>
+            </div>
+        </div>
+     </div>
+        </div>
+
+        <button class="toggle-btn" onclick="toggleCurrentGen()">
+            Tampilkan Selengkapnya
+        </button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/pagaska_/" target="_blank" aria-label="Instagram">
+                <i class="fi fi-brands-instagram"></i> Instagram
+            </a>
+            <a href="https://www.youtube.com/pagaskasmkn5madiun" target="_blank" aria-label="YouTube">
+                <i class="fi fi-brands-youtube"></i> YouTube
+            </a>
+            <a href="https://www.tiktok.com/gala.taksaka" target="_blank" aria-label="TikTok">
+                <i class="fi fi-brands-tik-tok"></i> TikTok
+            </a>
+            <a href="https://www.smkn5madiun.sch.id" target="_blank" aria-label="Website Sekolah">
+                <i class="fi fi-rs-site-alt"></i> Website Sekolah
+            </a>
+        </div>
+        <p>&copy; 2024 PAGASKA - Paskibra Gala Taksaka. All rights reserved.</p>
+    </footer>
+
+    <!-- Lightbox untuk Gallery -->
+    <div id="galleryLightbox" class="gallery-lightbox">
+        <div class="gallery-lightbox-content">
+            <button class="lightbox-close" onclick="closeGalleryLightbox()">×</button>
+            <img id="lightboxImage" class="gallery-lightbox-img" src="" alt="">
+            <button class="lightbox-nav lightbox-prev" onclick="prevImage()">❮</button>
+            <button class="lightbox-nav lightbox-next" onclick="nextImage()">❯</button>
+            <div class="lightbox-counter">
+                <span id="currentIndex">1</span> / <span id="totalImages">4</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox untuk Detail Anggota -->
+    <div id="memberLightbox"></div>
+
+    <script src="js/script.js"></script>
+    <script src="js/structure.js"></script>
+</body>
+</html>
